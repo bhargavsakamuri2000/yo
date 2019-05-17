@@ -1,0 +1,36 @@
+
+.body{
+    float:left;
+    padding :100px 500px 50px 500px;
+    background-image: url("C:\Users\bharg\projectZoro\src\app\wallpaper-full-hd-4k.jpg");
+    height:35.2pc;
+    margin:auto;
+    position:fixes;
+    width: 34.6%;
+  }
+  h1{
+    text-transform: capitalize;
+    color :rgb(223, 192, 218);
+    letter-spacing: 2px;
+    word-spacing:10px;
+    font-family:"Times New Roman", Times, serif;
+    font-size:35px;
+  }
+  .p{
+    text-transform: lowercase;
+    color :rgb(223, 192, 218);
+    letter-spacing: 2px;
+    word-spacing:10px;
+    font-family:"Times New Roman", Times, serif;
+    font-size:15px;
+    width:100%;
+  }
+  .span{
+    text-transform: lowercase;
+    color :rgb(240, 150, 213);
+    letter-spacing: -1px;
+    word-spacing:10px;
+    font-family:"Times New Roman", Times, serif;
+    font-size:50px;
+    width:100%;
+  }

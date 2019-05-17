@@ -1,0 +1,20 @@
+
+<body>
+    <h2>[Select your experience {{name}} , And if dont have any ignore]</h2>
+    <label>
+      your option {{name}}
+    </label>
+      <select [(ngModel)]="exp" class="select">
+          <option class="options"><h2>No-Experience</h2></option>
+          <option class="options"><h2>three-Months</h2></option>
+          <option class="options"><h2>six-Months</h2></option>
+          <option class="options"><h2>one-Year</h2></option>
+        </select><br><br><br><br><br><br><br>
+    <button class="button" (click)="update()">SUBMIT</button>
+    <div class="result" *ngIf="done">
+      <h2>{{name}} , you have submitted your details <br>
+      we will process your resume</h2>
+    </div>
+    <div class="result" *ngIf="done1"><h2>You have forgotten to select any of the above question or ther is incorrect match with status and experiance,<br>
+    So refresh the page and try again</h2></div>
+  </body>

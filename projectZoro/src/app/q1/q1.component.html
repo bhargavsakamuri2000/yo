@@ -1,0 +1,12 @@
+<body>
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <div>
+        <label>Enter your name</label><br><br><br>
+        <input type="text" class="yo" [(ngModel)]="name"><br><br> 
+        <button class="button" (click)="submit()">submit</button>
+        <div *ngIf="done" class="p">{{name}} , you successfully completed submission of this page.Go to next page by selecting other questions.</div>
+        <div *ngIf="done1" class="p">plz,Enter your name</div>
+      </div>
+      
+     
+</body>
